@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="w-[1000px] m-auto h-[50px]">
+            <nav class="text-3xl text-center flex">
+                <a href="../../index.html" class="ml-[150px]">Home</a>
+                <a href="../photo/photo.html" class="ml-[15px]">Photo</a>
+                <a href="#" class="ml-[15px]">Todos</a>
+                <a href="#" class="ml-[15px]">User</a>
+                <a href="../cart/cart.html" class="ml-[15px]">
+                    <img src="../../img/карзинка.jpg" alt="" class="w-[40px] ml-[300px]">
+                </a>
+                <a href="#"><img src="../../img/icon_favourite.svg" alt="" class="ml-[10px] w-[40px]">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <h1 class="text-4xl text-center font-semibold">favorite</h1>
+    <div id="cart" class="mt-[50px]"></div>
+    <script src="./favorite.js"></script>
+</body>
+
+</html>

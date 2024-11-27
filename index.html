@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добовление товара в корзину</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="w-[1000px] m-auto h-[50px]">
+            <nav class="text-3xl text-center flex">
+                <a href="#" class="ml-[150px]">Home</a>
+                <a href="./pages/photo/photo.html" class="ml-[15px]">Photo</a>
+                <a href="./pages/todos/todos.html" class="ml-[15px]">Todos</a>
+                <a href="./pages/user/user.html" class="ml-[15px]">User</a>
+                <a href="./pages/cart/cart.html" class="ml-[15px]">
+                    <img src="./img/карзинка.jpg" alt="" class="w-[40px] ml-[300px] ">
+                </a>
+                <a href="./pages/favorite/favorite.html" class="">
+                    <img src="./img/icon_favourite.svg" alt="" class="w-[40px] ml-[10px]">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div class="flex justify-center w-full">
+        <img src="./img/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="">
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
